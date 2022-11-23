@@ -1,0 +1,499 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    font-family: 'Poppins',sans-serif;
+}
+
+@media screen and (max-width:400px) {
+
+
+
+
+    .main-top{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .main-top-1{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .logo{
+        display: flex;
+    }
+    .logo-img{
+        height: 30px;
+    }
+    
+    .logo-text{
+        display: flex;
+        font-weight: 600;
+        align-items: center;
+        gap: 9px;
+        font-family: 'Roboto', sans-serif;
+
+    }
+    .search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    }
+    .search-img{
+        position: absolute;
+    left: 40px;
+    top: 118px;
+    }
+    .search-input{
+        width: 73%; 
+        padding: 9px 28px; 
+        background: #F4F4F4;
+    }
+    .user-article{
+        margin: 18px 13px;    
+        background: #FFF0E3;
+        height: 300px;
+    }
+    .user-text{
+        letter-spacing: 1px;
+        padding: 1px;
+    }
+    .user-box{
+        width: fit-content;
+    }
+    .user-box-img{
+        position: absolute;
+    margin-left: 21px;
+    }
+    .heading{
+        margin-left: 16px;
+    }
+    .text{
+        margin-left: 15px;
+    font-size: 11px;
+    margin-top: -12px;
+    }
+    .brands{
+        display: flex;
+    height: 20px;
+    margin-top: 50px;
+    justify-content: space-between;
+    }
+    .big-sale-img{
+        margin-top: 25px;
+    }
+    .brands-text-1{
+        font-size: 30px;
+    margin-left: 7px;
+    }
+    .brands-text-2{
+        margin: -23px 11px;
+        letter-spacing: 0px;
+        font-size: 17px;
+    }
+    .wow-brand{
+        border: 2px solid gold;
+        width: 84%;
+        margin: auto;
+        margin-top: 60px;
+    }
+    .wow-brand-img{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .brand-logo{
+        height: 23px; width: 51px;
+    }
+    .brand-img{
+        height: 250px;
+    width: 250px;
+    margin: auto;
+    }
+    .wow-price{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        background: gold;
+    width: 52%;
+    height: 26px;
+    margin: auto;
+    
+    }
+    .wow-text{
+        font-size: 20px;
+    margin-left: 16px;
+    }
+    .wow-desc{
+        border: 2px solid gold;
+    width: 81%;
+    margin-left: 38px;
+    height: 47px;
+}
+    .wow-desc p{
+        padding: 1px 25px;
+    }
+    .description{
+        color: #626262;
+        font-size: 11px;
+        margin: 16px 39px;
+    }
+    .offers{
+        display: flex;
+        flex-direction: column;
+       
+    }
+    .offer-img{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .offer-disco{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .offer-text{
+        font-size: 21px; 
+        margin: 15px 2px;
+    }
+    .offer-disc{
+        font-size: 49px;
+        margin-top: -26px;
+    }
+    .offer-disc-1{
+        font-size: 49px;
+        margin-top: -26px;
+    }
+    .offer-text-1{
+        font-size: 22px;
+    }
+    .arrow{
+        display: flex;
+        align-items: baseline;
+        margin-top: -14px;
+    }
+    .rewards{
+        margin-top: -56px;
+    }
+    .rewards-1{
+        margin-top: -57px;
+    }
+    .time{
+        display: flex;
+        justify-content: space-evenly;
+        color: red;
+    }
+    .offer-text-1{
+        font-size: 21px;
+    }
+    .offer-disco-1{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .time-1{
+        color: red;
+    }
+    .head{
+        text-transform: capitalize;
+        color: #0052CC;
+        margin-left: 24px;
+    }
+    .head-text{
+        width: 77%;
+    margin: -22px 27px;
+    font-size: 14px;
+    }
+    .brand-img-1{
+        margin: 37px 39px ;
+    }
+    .offer{
+        font-weight: 900;
+    margin-left: 28px;
+    }
+    .offer-desc{
+        margin: -19px 28px; 
+        font-size: 15px;
+    }
+    .banks{
+        display: flex;
+        
+        margin: 43px -15px;
+    }
+    .bank-img{
+        height: 250px; margin-left: 67px; 
+        border-radius: 20px;
+    }
+    .diff-img{
+        height: 250px;
+        margin-left: 98px;
+        border-radius: 20px;
+    }
+    .tables{
+        margin-top: 47px;
+        display: flex;
+        gap: 17px;
+    }
+    .ozia{
+        margin: 14px 36px;
+    }
+    .one{
+        border: 2px solid #D9E3EC;
+        width: 100%;
+    }
+    .two{
+        border: 2px solid #D9E3EC;
+        width: 100%;
+    }
+    .three{
+        border: 2px solid #D9E3EC;
+        width: 100%;
+        font-size: 11px;
+    }
+    .two-txt{
+        font-size: 12px;
+    }
+    .txt{
+        color: #898A8D;
+        font-size: 11px;
+    }
+    .two-des{
+        font-size: 14px;
+        color: #0052CC;
+    }
+    .table-1{
+        display: flex;
+        flex-direction: column;
+        margin-top: 35px;
+    }
+    .table-trend{
+        text-align: center;
+    font-size: 14px;
+    border: 1px solid #D9E3EC;
+    width: 82%;
+    margin: auto;
+    }
+    .coupons{
+        display: flex;
+        flex-wrap: wrap;
+        gap:45px ;
+    }
+    .coupon{
+        margin-top: 30px;
+    }
+    .coupon-texts{
+        display: flex;
+
+        align-items: center;
+        margin-top: -118px;
+        color: whitesmoke;
+    
+    }
+    .coupon-texts-1{
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+        margin-top: -118px;
+        color: whitesmoke;
+    
+    }
+    .text-percent{
+      
+        margin-top: -41px;
+    }
+   
+    
+    .coupon-text{
+        font-size: 40px;
+    }
+    .coupon-text-1{
+        font-size: 35px;
+    }
+    .percentage{
+        display: flex; 
+        flex-direction: column; 
+        align-items: center;
+    }
+    .coupon-boxes{
+            display: flex;
+            gap: 30px;
+    }
+    .coupon-box{
+        
+        width: 28%; 
+        border-radius: 6px; 
+        margin-top: -73px; 
+        margin-left: -6px; 
+        height: 58px;
+        z-index: -1;
+    }
+    .purple{
+        color: #8A54E7;
+       
+        border: 1px solid #8A54E7; 
+    }
+    .green-blue{
+        color: #47DBBB;
+        border: 1px solid #47DBBB;
+    }
+    .light-blue{
+   color: #71D2EF;
+    border: 1px solid #71D2EF;
+    }
+    .coupon-word{
+        font-size: 11px;
+    text-align: center;
+    margin-top: 37px;
+    }
+    .medicine-section{
+        margin-top: 40px;
+    }
+    .medicine-img{
+        background: #FED73E;
+        margin-top: -9px;
+        padding: 14px;
+    }
+    .intro{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    .intro-2{
+display: flex;
+flex-direction: column;
+align-items: center;
+    }
+    .desley-txt{
+        font-size: 15px;
+    margin-top: -26px;
+    }
+    .mobiles{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 30px;
+        margin-top: 50px;
+        justify-content: center;
+    }
+    .mobile{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .mobile-img{
+        height: 100px;
+        border-radius: 50%;
+    }
+    .color-txt{
+        color: #FF6B00;
+        margin-top: -20px;
+        font-size: 15px;
+    
+    }
+    .view{
+        margin: 0 165px;
+    }
+    .card-user{
+        background-color: #0052CC;
+        height: 286px;
+        padding: 26px;
+    }
+    .user{
+        color: whitesmoke;
+        font-size: 21px;
+    }
+    .user-desc{
+        color: #FFFFFF;
+        font-size: 15px;
+    margin-top: -11px;
+    }
+    .cards{
+        display: flex;
+        gap: 10px;
+    }
+    .card-left{
+        background-color: whitesmoke;
+        height: 150px;
+        width: 150px;
+        margin-left: 20px;
+    }
+    .card-text{
+        font-size: 18px;
+        width: 10%;
+        margin: -5px 31px;
+        padding: 11px;
+    }
+    .card-right{
+        background-color: #7E2DE5;
+        height: 150px;
+        width: 150px;
+        margin-left: 20px;
+    }
+    .right-offers{
+        color: white;
+        font-size: 18px;
+        margin: 0;
+        margin-top: -10px;
+    }
+    .card-right-text{
+        color: #FFE600;
+        font-size: 18px;
+        margin-top: 20px;
+    }
+    .card-right-items{
+        margin-left: 12px;
+    }
+    .btn{
+        display: flex;
+        align-items: center;
+    }
+    .heart{
+        position: absolute;
+        margin-left: 2px;
+    margin-top: -9px;
+    }
+    .like-btn{
+        height: 30px;
+    width: 60px;
+    border-radius: 7px;
+    }
+    .ustra-logo{
+        margin-top: 40px;
+        margin-left: 10px;
+    }
+    .ustra-info{
+        /* display: flex;
+        flex-direction: column; */
+        margin-top: 15px;
+    }
+    .ustra-deal{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        margin-top: -13px;
+        margin-left: 12px;
+
+    }
+    .ustra-rate{
+        font-size: 15px;
+    }
+    .ustra-time{
+        color: #EB4335;
+    }
+    .get-offer{
+        margin-top: -13px;
+    }
+    .assurance{
+        margin-top: 15px;
+    }
+    .feedback{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+    }
+    
+   
+}
